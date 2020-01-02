@@ -5,7 +5,7 @@
   - [ ] About Me ...
       * My 3rd FOSDEM, got impressed a lot by the community!
       * Greatful to org. commette for accepting my presentation
-    - [ ] My backgroups with Linux
+    - [ ] My background with Linux
     - [ ] Why I decided to come here and present at FOSDEM
     - [ ] How I managed to ignore D-Bus and systemd for 10 years?!
   - [ ] About This Talk ...
