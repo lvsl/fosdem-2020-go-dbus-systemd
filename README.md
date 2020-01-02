@@ -31,11 +31,19 @@
 
 - [ ] Systemd *(10 min)*
   - [ ] What is Systemd?
-  - [ ] How it looks like and why that many features?
-    * Every User has a systemd
+    * Systemd completments Linux kernel
+    * Systemd needs a good book
+  - [ ] Navigating systemd docs
+    * Unit file format and WhySoManyDirectives=?
+    * Navigating Man Pages
+    * The [NEWS](https://github.com/systemd/systemd/blob/master/NEWS) file!
+  - [ ] Systemd provides D-Bus API!
+    * How to use it: --system vs --user systemd
+    * Two ways: Transient unit files and D-Bus API
   - [ ] Demo Time
     * Long-running Background Jobs that Survice Crashes
     * Graceful Termination and Startup
     * Watchdogs and Notifications
+    * Journalctl and logs
 
 - [ ] Q & A *(5 min)*
