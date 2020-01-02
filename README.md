@@ -17,6 +17,9 @@
   - [ ] What is D-Bus?
   - [ ] Contrast and compare it with REST and gRPC
   - [ ] What projects using it (Chrome OS, Firefox, Systemd)
+  - [ ] How it works?
+    * Message protocol and p2p communication
+    * Bus abstraction and broadcast communication
   - [ ] The Good Parts ...
     * Passing File Descriptors as a Native Concept
     * Local Service Discovery
