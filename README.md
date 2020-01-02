@@ -3,7 +3,7 @@
 ## Agenda:
 - [ ] Intro *(5 min)*
   - [ ] About Me ...
-      * My 3rd FOSDEM, got impressed a lot by community!
+      * My 3rd FOSDEM, got impressed a lot by the community!
       * Greatful to org. commette for accepting my presentation
     - [ ] My backgroups with Linux
     - [ ] Why I decided to come here and present at FOSDEM
@@ -14,6 +14,17 @@
   - [ ] What is D-Bus
   - [ ] Contrast and compare it with REST and gRPC
   - [ ] What projects using it (Chrome OS, Firefox, Systemd)
+  - [ ] The Good Parts ...
+    * Passing File Descriptors as a Native Concept
+    * Local Service Discovery
+  - [ ] The Ugly Parts ...
+    * Variable types
+    * Discovering API
+    * Object Model
+    * D-Bus daaemon quirks
+  - [ ] Demo Time
+    * Opening a New Tab in Firefox via D-Bus
+    * Snooping D-Bus traffic
 
 - [ ] Systemd *(10 min)*
 
