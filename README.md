@@ -9,9 +9,11 @@
     - [ ] Why I decided to come here and present at FOSDEM
     - [ ] How I managed to ignore D-Bus and systemd for 10 years?!
   - [ ] About This Talk ...
+    - [ ] Scope: Systems Programming
+      * Def.: "Software that provides services for other (application) software" [[wikipedia](https://en.wikipedia.org/wiki/Systems_programming)]
 
 - [ ] D-Bus *(10 min)*
-  - [ ] What is D-Bus
+  - [ ] What is D-Bus?
   - [ ] Contrast and compare it with REST and gRPC
   - [ ] What projects using it (Chrome OS, Firefox, Systemd)
   - [ ] The Good Parts ...
@@ -27,5 +29,7 @@
     * Snooping D-Bus traffic
 
 - [ ] Systemd *(10 min)*
+  - [ ] What is Systemd?
+  - [ ] Why use it for system progr
 
 - [ ] Q & A *(5 min)*
