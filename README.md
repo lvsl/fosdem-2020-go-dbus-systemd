@@ -8,6 +8,7 @@
     - [ ] My background with Linux
     - [ ] Why I decided to come here and present at FOSDEM
     - [ ] How I managed to ignore D-Bus and systemd for 10 years?!
+      * Also didn't have a TV for 10 years, and bought one recently. It's great!
   - [ ] About This Talk ...
     - [ ] Scope: Systems Programming
       * Def.: "Software that provides services for other (application) software" [[wikipedia](https://en.wikipedia.org/wiki/Systems_programming)]
