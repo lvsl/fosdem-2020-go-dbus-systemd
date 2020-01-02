@@ -21,16 +21,21 @@
     * Passing File Descriptors as a Native Concept
     * Local Service Discovery
   - [ ] The Ugly Parts ...
+    * Object Model 
     * Variable types
     * Discovering API
-    * Object Model
-    * D-Bus daaemon quirks
+    * D-Bus daemon quirks
   - [ ] Demo Time
     * Opening a New Tab in Firefox via D-Bus
     * Snooping D-Bus traffic
 
 - [ ] Systemd *(10 min)*
   - [ ] What is Systemd?
-  - [ ] Why use it for system progr
+  - [ ] How it looks like and why that many features?
+    * Every User has a systemd
+  - [ ] Demo Time
+    * Long-running Background Jobs that Survice Crashes
+    * Graceful Termination and Startup
+    * Watchdogs and Notifications
 
 - [ ] Q & A *(5 min)*
