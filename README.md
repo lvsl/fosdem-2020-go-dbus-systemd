@@ -15,11 +15,13 @@
 
 - [ ] D-Bus *(10 min)*
   - [ ] What is D-Bus?
-  - [ ] Contrast and compare it with REST and gRPC
+  - [ ] Contrast and compare it with REST
   - [ ] What projects using it (Chrome OS, Firefox, Systemd)
   - [ ] How it works?
     * Message protocol and p2p communication
     * Bus abstraction and broadcast communication
+    * More details see [this presentation](https://bootlin.com/pub/conferences/2016/meetup/dbus/josserand-dbus-meetup.pdf)
+    * Tools `dbus-send` and `busctl`
   - [ ] The Good Parts ...
     * Passing File Descriptors as a Native Concept
     * Local Service Discovery
@@ -28,7 +30,7 @@
     * Variable types
     * Discovering API
     * D-Bus daemon quirks
-  - [ ] Demo Time
+  - [ ] Examples
     * Opening a New Tab in Firefox via D-Bus
     * Snooping D-Bus traffic
 
@@ -43,7 +45,7 @@
   - [ ] Systemd provides D-Bus API!
     * How to use it: --system vs --user systemd
     * Two ways: Transient unit files and D-Bus API
-  - [ ] Demo Time
+  - [ ] Examples
     * Long-running Background Jobs that Survice Crashes
     * Graceful Termination and Startup
     * Watchdogs and Notifications
