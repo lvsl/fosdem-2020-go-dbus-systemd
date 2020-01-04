@@ -33,6 +33,8 @@
   - [ ] Examples
     * Opening a New Tab in Firefox via D-Bus
     * Snooping D-Bus traffic
+  - [ ] Demo
+    * Spotify [MPRIS2 protocol](https://specifications.freedesktop.org/mpris-spec/latest/)
 
 - [ ] Systemd *(10 min)*
   - [ ] What is Systemd?
