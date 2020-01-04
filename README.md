@@ -25,6 +25,7 @@
   - [ ] The Good Parts ...
     * Passing File Descriptors as a Native Concept
     * Local Service Discovery
+    * Introspection
   - [ ] The Ugly Parts ...
     * Object Model 
     * Variable types
