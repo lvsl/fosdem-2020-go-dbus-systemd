@@ -21,7 +21,7 @@
     * Message protocol and p2p communication
     * Bus abstraction and broadcast communication
     * More details see [this presentation](https://bootlin.com/pub/conferences/2016/meetup/dbus/josserand-dbus-meetup.pdf)
-    * Tools: `dbus-send`, `busctl` and D-Feet
+    * Tools: `dbus-send`, `dbus-monitor`, `busctl` and D-Feet
   - [ ] The Good Parts ...
     * Passing File Descriptors as a Native Concept
     * Local Service Discovery
