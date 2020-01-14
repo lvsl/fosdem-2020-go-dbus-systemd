@@ -46,6 +46,7 @@
     * Navigating Man Pages
     * The [NEWS](https://github.com/systemd/systemd/blob/master/NEWS) file!
   - [ ] Systemd provides D-Bus API!
+    * Systemd uses its own implementation of D-Bus spec [explained well here](http://0pointer.net/blog/the-new-sd-bus-api-of-systemd.html)
     * How to use it: --system vs --user systemd
     * Two ways: Transient unit files and D-Bus API
   - [ ] Examples
