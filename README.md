@@ -21,6 +21,7 @@
     * Message protocol and p2p communication
     * Bus abstraction and broadcast communication
     * More details see [this presentation](https://bootlin.com/pub/conferences/2016/meetup/dbus/josserand-dbus-meetup.pdf)
+    * Chrome OS has some [D-Bus best practices](https://chromium.googlesource.com/chromiumos/docs/+/master/dbus_best_practices.md)
     * Tools: `dbus-send`, `dbus-monitor`, `busctl` and `dbus-test-tool`
   - [ ] The Good Parts ...
     * Passing File Descriptors as a Native Concept
