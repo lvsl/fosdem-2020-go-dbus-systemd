@@ -4,7 +4,7 @@ and defines the following:
 * Bus naming scheme (unique and well-known)
 * Two standard buses: system and session
 * Message routing via match rules
-* A set of well known interfaces `org.freedesktop.DBus`
+* A set of methods in a well-known `org.freedesktop.DBus` interface
 
 D-Bus message bus reference implementation - [`dbus-daemon`](https://dbus.freedesktop.org/doc/dbus-daemon.1.html) is not considered to be part of the spec.
 
