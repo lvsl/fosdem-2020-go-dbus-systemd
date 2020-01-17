@@ -11,3 +11,21 @@ D-Bus message bus reference implementation - [`dbus-daemon`](https://dbus.freede
 There's an alternative, compatible implementation of message bus specification for Linux - [`dbus-broker`](https://github.com/bus1/dbus-broker/wiki#using-dbus-broker). Goal of `dbus-broker` is to provide high performance and reliability.
 
 Go's [`godbus`](https://github.com/godbus/dbus) provides functionality to connect to a Message Bus via [`dbus.Connect()`](https://www.godoc.org/github.com/godbus/dbus#Connect).
+
+## Systemd integration
+D-Bus is tightly integrated with systemd. It's possible to start a new bus "session" via systemd socket activation,
+as well as activate a systemd service by sending a message to the bus.
+
+```
+Control group /:
+-.slice
+├─user.slice
+│ └─user-1000.slice
+│   ├─user@1000.service
+│   │ ├─init.scope
+│   │ │ ├─1594 /lib/systemd/systemd --user
+│   │ │ └─1595 (sd-pam)
+│   │ └─dbus.service
+│   │   └─1744 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --s
+```
+(Note: you might need to install `dbus-user-session` for that).
