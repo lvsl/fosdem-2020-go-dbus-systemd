@@ -28,4 +28,7 @@ Control group /:
 │   │ └─dbus.service
 │   │   └─1744 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --s
 ```
-(Note: you might need to install `dbus-user-session` for that).
+
+### Integration testing
+For testing with isolated D-Bus instance there's [`dbus-run-session`](https://dbus.freedesktop.org/doc/dbus-run-session.1.html) tool.
+Note: this is different from [`dbus-launch`](https://dbus.freedesktop.org/doc/dbus-launch.1.html) tool, which for starting session bus along with X11 session.
