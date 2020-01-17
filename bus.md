@@ -30,6 +30,6 @@ Control group /:
 ```
 
 ### Integration testing
-For testing with isolated D-Bus instance there's [`dbus-run-session`](https://dbus.freedesktop.org/doc/dbus-run-session.1.html) tool.
+For testing with isolated D-Bus instance there is a [`dbus-run-session`](https://dbus.freedesktop.org/doc/dbus-run-session.1.html) tool.
 
 Note: this is different from [`dbus-launch`](https://dbus.freedesktop.org/doc/dbus-launch.1.html) tool, which for starting session bus along with X11 session.
