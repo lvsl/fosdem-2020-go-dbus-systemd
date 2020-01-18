@@ -20,5 +20,5 @@ Peer-to-peer D-Bus is not very practical and only useful for resolving circular 
 
 Peers that act as a client can use [`Conn.Dial()`](https://github.com/godbus/dbus/blob/v5.0.3/conn.go#L158) method.
 
-Peers that act as a server must configure transport layer directly, and handle D-Bus messages with [`Message.Decode()`](https://github.com/godbus/dbus/blob/v5.0.3/message.go#L125) and [`Message.EncodeTo()`](https://github.com/godbus/dbus/blob/v5.0.3/message.go#L213).
+Peers that act as a server must configure transport layer directly, and handle D-Bus messages with [`Message.Decode()`](https://github.com/godbus/dbus/blob/v5.0.3/message.go#L125) and [`Message.EncodeTo()`](https://github.com/godbus/dbus/blob/v5.0.3/message.go#L213) (be aware that godbus is not panic-free).
  
