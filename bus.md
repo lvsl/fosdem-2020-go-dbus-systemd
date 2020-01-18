@@ -27,7 +27,7 @@ Control group /:
 │   │   └─1744 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --s
 ```
 
-## Go's interface
+## Go interface
 Go's [`godbus`](https://github.com/godbus/dbus/tree/v5.0.3) provides functionality to connect to a Message Bus via [`dbus.SessionBus()`](https://www.godoc.org/github.com/godbus/dbus#SessionBus) and [`dbus.SystemBus()`](https://www.godoc.org/github.com/godbus/dbus#SystemBus).
 
 ### Integration testing
