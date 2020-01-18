@@ -15,6 +15,7 @@ D-Bus is tightly integrated with systemd. It's possible to start a new bus "sess
 as well as activate a systemd service by sending a message to the bus.
 
 ```
+(systemd-cgls output on Ubuntu 18.04):
 Control group /:
 -.slice
 ├─user.slice
@@ -24,7 +25,8 @@ Control group /:
 │   │ │ ├─1594 /lib/systemd/systemd --user
 │   │ │ └─1595 (sd-pam)
 │   │ └─dbus.service
-│   │   └─1744 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --s
+│   │   └─1744 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation ...
+...
 ```
 
 ## Go interface
