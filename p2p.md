@@ -1,6 +1,6 @@
 # D-Bus Message Protocol
 
-Message protocol is a part of [D-Bus specification] and defines the following:
+Message protocol is a part of [D-Bus specification](https://dbus.freedesktop.org/doc/dbus-specification.html#introduction) and defines the following:
 * Data types and wire format
 * Message protocol
 * Authentication protocol
@@ -16,9 +16,10 @@ The process to setup connection is different when connecting to a peer directly 
 Peer-to-peer D-Bus is not very practical and only useful for resolving circular dependencies and testing.
 
 ### Go Interface
-[Godbus]() does not have any special functionality to setup peer-to-peer connection.
+[Godbus](https://github.com/godbus/dbus/tree/v5.0.3) does not have any special functionality to setup peer-to-peer connection.
 
-Peers that act as a client can use [`Conn.Dial()`]() method.
+Peers that act as a client can use [`Conn.Dial()`](https://github.com/godbus/dbus/blob/v5.0.3/conn.go#L158) method.
 
 Peers that act as a server must configure transport layer directly, and handle D-Bus messages with
+custom implementation of [server interfaces](https://github.com/godbus/dbus/blob/v5.0.3/server_interfaces.go) defined.
  
