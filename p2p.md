@@ -28,7 +28,16 @@ Message protocol is a part of [D-Bus specification](https://dbus.freedesktop.org
       </tr>
     </table>
    </td>
-   <td>TYPES ...</td>
+   <td>
+     TYPES:
+     <ul>
+       <li>METHOD CALL</li>
+       <li>METHOD RETURN</li>
+       <li>ERROR</li>
+       <li>SIGNAL</li>
+       <li>INVALID</li>
+     </ul>
+    </td>
   </tr>
 
   <tr>
@@ -47,7 +56,18 @@ Message protocol is a part of [D-Bus specification](https://dbus.freedesktop.org
       </table>
     </td>
     <td>
-      CODES...
+      CODES:
+      <ul>
+        <li>PATH ()</li>
+        <li>INTERFACE ()</li>
+        <li>MEMBER ()</li>
+        <li>ERROR_NAME ()</li>
+        <li>REPLY_SERIAL ()</li>
+        <li>DESTINATION ()</li>
+        <li>SENDER ()</li>
+        <li>SIGNATURE ()</li>
+        <li>UNIX_FDS ()</li>
+      </ul>
     </td>
   </tr>
 </table>
