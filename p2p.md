@@ -16,7 +16,7 @@ The process to setup connection is different when connecting to a peer directly 
 Peer-to-peer D-Bus is not very practical and only useful for resolving circular dependencies and testing.
 
 ### Go Interface
-[Godbus](https://github.com/godbus/dbus/tree/v5.0.3) does not have any special functionality to setup peer-to-peer connection.
+[Godbus](https://github.com/godbus/dbus/tree/v5.0.3) does not have any special functionality to setup direct peer-to-peer connection.
 
 Peers that act as a client can use [`Conn.Dial()`](https://github.com/godbus/dbus/blob/v5.0.3/conn.go#L158) method.
 
