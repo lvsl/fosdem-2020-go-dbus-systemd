@@ -15,6 +15,10 @@ Peers can communicate directly over one of supported transports.
 The process to setup connection is different when connecting to a peer directly or connecting to a message bus.
 Peer-to-peer D-Bus is not very practical and only useful for resolving circular dependencies and testing.
 
+For example `systemctl` (systemd CLI) communicate with systemd via D-Bus daemon,
+but if called as root, connects directly to `systemd` daemon.
+This is to resolve cirular dependency between D-Bus daemon and systemd daemon.
+
 ### Go Interface
 [Godbus](https://github.com/godbus/dbus/tree/v5.0.3) does not have any special functionality to setup direct peer-to-peer connection.
 
