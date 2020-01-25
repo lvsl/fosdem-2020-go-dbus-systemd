@@ -8,6 +8,35 @@ Message protocol is a part of [D-Bus specification](https://dbus.freedesktop.org
 * Set of standard interfaces in `org.freedesktop.DBus`
 * XML-based introspection schema format
 
+## Message Format
+HEADER:
+<table>
+ <tr>
+  <td><tt>l</tt> or <tt>B</tt></td>
+  <td>TYPE</td>
+  <td>FLAGS</td>
+  <td>VERSION</td>
+ </tr>
+ <tr>
+  <td colspan="4">LENGTH OF BODY</td>
+ </tr>
+ <tr>
+  <td colspan="4">SERIAL COOKIE</td>
+ </tr>
+</table>
+HEADER FIELDS(n):
+<table>
+ <tr>
+  <td>CODE<sub>1</sub></td>
+  <td>BODY<sub>1</sub></td>
+ </tr>
+ <tr><td colspan="2">...</td></tr>
+ <tr>
+  <td>CODE<sub>n</sub></td>
+  <td>BODY<sub>n</sub></td>
+ </tr>
+</table>
+
 ## Peer-to-peer communication over D-Bus
 D-Bus does not have a concept of client and server.
 Peers can communicate directly over one of supported transports.
