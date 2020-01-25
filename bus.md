@@ -6,6 +6,8 @@ and defines the following:
 * Message routing via match rules
 * A set of methods in a well-known `org.freedesktop.DBus` interface
 
+![d-bus](d-bus.png)
+
 D-Bus message bus reference implementation - [`dbus-daemon`](https://dbus.freedesktop.org/doc/dbus-daemon.1.html) is not considered to be part of the spec.
 
 There's an alternative, compatible implementation of message bus specification for Linux - [`dbus-broker`](https://github.com/bus1/dbus-broker/wiki#using-dbus-broker). Goal of `dbus-broker` is to provide high performance and reliability.
