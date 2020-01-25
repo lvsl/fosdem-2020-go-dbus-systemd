@@ -37,7 +37,7 @@
     * Systemd completments Linux kernel
     * Systemd needs a good book
   - [ ] Navigating systemd docs
-    * Unit file format and WhySoManyDirectives=?
+    * Unit file format and `WhySoManyDirectives=`?
     * Navigating Man Pages
     * The [NEWS](https://github.com/systemd/systemd/blob/master/NEWS) file!
   - [ ] Systemd provides D-Bus API!
