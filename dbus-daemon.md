@@ -16,3 +16,12 @@ $ dbus-send --system \
             --type=method_call \
             --dest=org.freedesktop.DBus / org.freedesktop.DBus.ListNames
 ```
+
+Get some runtime stats from the daemon:
+```
+$ dbus-send --session \
+            --dest=org.freedesktop.DBus \
+            --type=method_call \
+            --print-reply \
+            /org/freedesktop/DBus org.freedesktop.DBus.Debug.Stats.GetStats
+```
