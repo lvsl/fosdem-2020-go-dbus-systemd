@@ -1,5 +1,5 @@
-# The DBus daemon
-Reference implementation of DBus message is [dbus-daemon](https://dbus.freedesktop.org/doc/dbus-daemon.1.html).
+# The D-Bus daemon
+Reference implementation of D-Bus message bus is [dbus-daemon](https://dbus.freedesktop.org/doc/dbus-daemon.1.html).
 
 ## Monitoring daemon
 Message bus provides a set on standard interaces which can be introspected with:
