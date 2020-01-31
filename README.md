@@ -3,12 +3,6 @@
 ## Agenda:
 - [ ] Intro *(5 min)*
   - [ ] About Me ...
-      * My 3rd FOSDEM, got impressed a lot by the community!
-      * Greatful to org. commette for accepting my presentation
-    - [ ] My background with Linux
-    - [ ] Why I decided to come here and present at FOSDEM
-    - [ ] How I managed to ignore D-Bus and systemd for 10 years?!
-      * Also didn't have a TV for 10 years, and bought one recently. It's great!
   - [ ] About This Talk ...
     - [ ] Scope: Systems Programming
       * Def.: "Software that provides services for other (application) software" [[wikipedia](https://en.wikipedia.org/wiki/Systems_programming)]
@@ -43,7 +37,7 @@
     * Systemd completments Linux kernel
     * Systemd needs a good book
   - [ ] Navigating systemd docs
-    * Unit file format and WhySoManyDirectives=?
+    * Unit file format and `WhySoManyDirectives=`?
     * Navigating Man Pages
     * The [NEWS](https://github.com/systemd/systemd/blob/master/NEWS) file!
   - [ ] Systemd provides D-Bus API!
