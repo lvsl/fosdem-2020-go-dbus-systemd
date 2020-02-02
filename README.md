@@ -5,4 +5,4 @@ See `/cmd` for various examples of how to use DBus/systemd with Go.
 Also some additional information:
 * On [Peer to peer DBus](/p2p.md)
 * On [dbus-daemon](/dbus-daemon.md)
-* On [message bus](/dus.md)
+* On [message bus](/bus.md)
